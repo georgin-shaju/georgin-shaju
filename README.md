@@ -8,17 +8,8 @@
 </div>
 <!-- └───────────────────────────────────────────────────────────┘ -->
 
-<br/>
 
-<!-- ┌─ TYPING ANIMATION (IT/Network/SOC themed) ────────────────┐ -->
-<div align="center">
-  <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=20&duration=3000&pause=800&color=39D353&center=true&vCenter=true&multiline=false&repeat=true&width=720&lines=georgi%40infrastructure%3A~%24+whoami;📡+Network+%26+Hardware+Infrastructure+Trainee;🖥️+VMware+ESXi+8.0+•+HPE+ProLiant+DL360+Gen9;🔧+Active+Directory+•+DNS+•+DHCP+•+Group+Policy;🔒+Next%3A+SOC+Analyst+•+Zabbix+•+Cisco+Networking;📍+Vatanix+Technologies+—+60-Day+Hands-On+Program" alt="Typing SVG" />
-  </a>
-</div>
-<!-- └───────────────────────────────────────────────────────────┘ -->
 
-<br/>
 
 <!-- ┌─ BADGES ──────────────────────────────────────────────────┐ -->
 <div align="center">
