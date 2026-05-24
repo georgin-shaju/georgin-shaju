@@ -34,11 +34,7 @@
 <!-- ┌─ ABOUT ME ────────────────────────────────────────────────┐ -->
 ## <img src="https://media.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif" width="26"> &nbsp;**About Me**
 
-<div align="center">
-  <img src="./assets/network_globe.png" alt="Network Globe" width="300" style="border-radius:10px;" />
-</div>
-
-<br/>
+<img align="right" src="https://user-images.githubusercontent.com/74038190/225813708-98b745f2-7d22-48cf-9150-083f15b36f93.gif" alt="Network Globe Animation" width="300" />
 
 ```yaml
 🏷️ Name:     Georgin Shaju
@@ -62,7 +58,7 @@
    the port labels!
 ```
 
-<br/>
+<br clear="both"/>
 <!-- └───────────────────────────────────────────────────────────┘ -->
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
