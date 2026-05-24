@@ -10,19 +10,6 @@
 
 <br/>
 
-<!-- ┌─ ASCII PORTRAIT ──────────────────────────────────────────┐ -->
-<div align="center">
-  <a href="https://github.com/FTGEORGII">
-    <picture>
-      <source media="(prefers-color-scheme: dark)"  srcset="./assets/georgin_dark.svg" />
-      <img src="./assets/georgin_light.svg" alt="Georgin Shaju ASCII Portrait" width="985" />
-    </picture>
-  </a>
-</div>
-<!-- └───────────────────────────────────────────────────────────┘ -->
-
-<br/>
-
 <!-- ┌─ TYPING ANIMATION (IT/Network/SOC themed) ────────────────┐ -->
 <div align="center">
   <a href="https://git.io/typing-svg">
