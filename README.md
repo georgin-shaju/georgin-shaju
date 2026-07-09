@@ -47,13 +47,17 @@
 <!-- Animated node-network graphic — only rendered on screens ≥1024px (real desktop
      reading width), where there's genuine free space beside the code block. Below
      that breakpoint it swaps to a local 1x1 transparent pixel, so it never floats
-     any real width on tablet/phone and can't squeeze the code block into a scroll. -->
+     any real width on tablet/phone and can't squeeze the code block into a scroll.
+     Kept as one continuous HTML block with the <pre> below (instead of a markdown
+     fenced code block) — mixing raw HTML with a ``` fence right after it is what
+     made GitHub drop the content entirely last time. -->
+<div>
 <picture>
   <source media="(min-width: 1024px)" srcset="./assets/network-nodes.svg" />
   <img align="right" src="./assets/spacer.gif" alt="" />
 </picture>
 
-```yaml
+<pre>
 🏷️ Name:     Georgin Shaju
 🌐 Username: georgin-shaju
 📍 Location: Trichy, Tamil Nadu, India
@@ -73,7 +77,8 @@
 ⚡ Fun Fact: Plugged a cable into the
    iLO port instead of the NIC once —
    Layer 1 starts with reading labels!
-```
+</pre>
+</div>
 
 <br clear="both"/>
 
