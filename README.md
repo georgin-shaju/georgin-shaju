@@ -44,9 +44,14 @@
 <!-- ┌─ ABOUT ME ────────────────────────────────────────────────┐ -->
 ## <img src="https://media.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif" width="26"> &nbsp;**About Me**
 
-<div align="center">
-  <img src="https://user-images.githubusercontent.com/74038190/225813708-98b745f2-7d22-48cf-9150-083f15b36f93.gif" alt="Network Globe Animation" width="140" />
-</div>
+<!-- Animated node-network graphic — only rendered on screens ≥1024px (real desktop
+     reading width), where there's genuine free space beside the code block. Below
+     that breakpoint it swaps to a local 1x1 transparent pixel, so it never floats
+     any real width on tablet/phone and can't squeeze the code block into a scroll. -->
+<picture>
+  <source media="(min-width: 1024px)" srcset="./assets/network-nodes.svg" />
+  <img align="right" src="./assets/spacer.gif" alt="" />
+</picture>
 
 ```yaml
 🏷️ Name:     Georgin Shaju
@@ -69,6 +74,8 @@
    iLO port instead of the NIC once —
    Layer 1 starts with reading labels!
 ```
+
+<br clear="both"/>
 
 <!-- └───────────────────────────────────────────────────────────┘ -->
 

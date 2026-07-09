@@ -1,0 +1,79 @@
+<svg viewBox="0 0 260 460" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="glowCore" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#39d353" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#39d353" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- ambient glow -->
+  <circle cx="130" cy="200" r="120" fill="url(#glowCore)"/>
+
+  <!-- rotating globe wireframe -->
+  <g transform="translate(130,200)">
+    <g>
+      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="14s" repeatCount="indefinite"/>
+
+      <circle r="95" fill="none" stroke="#2a3648" stroke-width="1.4"/>
+      <ellipse rx="95" ry="32" fill="none" stroke="#2a3648" stroke-width="1.2"/>
+      <ellipse rx="95" ry="60" fill="none" stroke="#2a3648" stroke-width="1.2"/>
+      <ellipse rx="32" ry="95" fill="none" stroke="#2a3648" stroke-width="1.2"/>
+      <ellipse rx="60" ry="95" fill="none" stroke="#2a3648" stroke-width="1.2"/>
+
+      <!-- connected nodes on the sphere -->
+      <g fill="#39d353">
+        <circle cx="95" cy="0" r="3.2"/>
+        <circle cx="-95" cy="0" r="3.2"/>
+        <circle cx="0" cy="95" r="3.2"/>
+        <circle cx="0" cy="-95" r="3.2"/>
+        <circle cx="67" cy="67" r="3"/>
+        <circle cx="-67" cy="67" r="3"/>
+        <circle cx="67" cy="-67" r="3"/>
+        <circle cx="-67" cy="-67" r="3"/>
+      </g>
+      <g fill="#58a6ff">
+        <circle cx="46" cy="83" r="2.4"/>
+        <circle cx="-46" cy="-83" r="2.4"/>
+        <circle cx="83" cy="-46" r="2.4"/>
+        <circle cx="-83" cy="46" r="2.4"/>
+      </g>
+
+      <!-- connecting lines between a few nodes -->
+      <g stroke="#39d353" stroke-width="0.8" opacity="0.5">
+        <line x1="95" y1="0" x2="67" y2="67"/>
+        <line x1="67" y1="67" x2="0" y2="95"/>
+        <line x1="0" y1="95" x2="-67" y2="67"/>
+        <line x1="-67" y1="67" x2="-95" y2="0"/>
+        <line x1="-95" y1="0" x2="-67" y2="-67"/>
+        <line x1="-67" y1="-67" x2="0" y2="-95"/>
+        <line x1="0" y1="-95" x2="67" y2="-67"/>
+        <line x1="67" y1="-67" x2="95" y2="0"/>
+      </g>
+    </g>
+
+    <!-- pulsing core node, stays upright (outside rotating group) -->
+    <circle r="5" fill="#39d353">
+      <animate attributeName="r" values="4;7;4" dur="2.4s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="1;0.5;1" dur="2.4s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- orbiting satellite dot -->
+  <g transform="translate(130,200)">
+    <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="8s" repeatCount="indefinite" additive="sum"/>
+    <circle cx="118" cy="0" r="2.6" fill="#58a6ff">
+      <animate attributeName="opacity" values="0.3;1;0.3" dur="1.6s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+  <g transform="translate(130,200)">
+    <animateTransform attributeName="transform" type="rotate" from="120" to="480" dur="10s" repeatCount="indefinite" additive="sum"/>
+    <circle cx="110" cy="0" r="2" fill="#39d353">
+      <animate attributeName="opacity" values="0.2;0.9;0.2" dur="2s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- floating packet blips along a vertical connector, terminal-esque -->
+  <g fill="#39d353" font-family="'Courier New',monospace" font-size="11" opacity="0.85">
+    <text x="130" y="340" text-anchor="middle">&gt; sync --status ok</text>
+  </g>
+</svg>
