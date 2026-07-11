@@ -28,6 +28,17 @@
 
 <br/>
 
+<!-- ┌─ HUB LINK ────────────────────────────────────────────────┐ -->
+<div align="center">
+
+### 🔗 Find everything in one place
+**[georgin-shaju.github.io](https://georgin-shaju.github.io)** — portfolio hub linking my projects, LinkedIn, and other profiles.
+
+</div>
+<!-- └───────────────────────────────────────────────────────────┘ -->
+
+<br/>
+
 <!-- Dynamic typing tagline — SVG scales to container width on any device -->
 <div align="center">
   <a href="https://github.com/georgin-shaju">
@@ -139,12 +150,7 @@
 ## 📊 **GitHub Analytics**
 
 <div align="center">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=georgin-shaju&show_icons=true&theme=chartreuse-dark&hide_border=true&bg_color=0d1117&title_color=39d353&icon_color=39d353&text_color=c9d1d9&ring_color=39d353&count_private=true" alt="GitHub Stats" />
   <img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=georgin-shaju&theme=dark&hide_border=true&background=0d1117&ring=39d353&fire=39d353&currStreakLabel=39d353&sideLabels=c9d1d9&currStreakNum=c9d1d9&dates=555555" alt="GitHub Streak" />
-</div>
-
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=georgin-shaju&bg_color=0d1117&color=39d353&line=39d353&point=ffffff&area=true&area_color=39d353&hide_border=true&custom_title=📈 Contribution%20Activity" width="98%"/>
 </div>
 <!-- └───────────────────────────────────────────────────────────┘ -->
 
