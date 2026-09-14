@@ -47,41 +47,35 @@
 <!-- ┌─ ABOUT ME ────────────────────────────────────────────────┐ -->
 ## <img src="https://media.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif" width="26" alt=""> &nbsp;**About Me**
 
-<div>
-<img align="right" src="./assets/network-nodes.svg" width="210" alt="Animated network globe showing synchronized infrastructure nodes" />
+<picture>
+  <source media="(min-width: 768px)" srcset="./assets/network-nodes.svg" />
+  <img align="right" src="./assets/spacer.svg" alt="" />
+</picture>
 
-<pre>
-🏷️ Name:     Georgin Shaju
-🌐 Username: georgin-shaju
-📍 Location: Trichy, Tamil Nadu, India
-🎯 Focus:    Junior IT Infrastructure &
-             Network Engineering
-
-🔭 Current Infrastructure Work:
-  → Windows Server 2019/2025 — AD DS,
-    DNS, DHCP failover, AD CS and GPO
-  → NPS/RADIUS for switch SSH and
-    WPA2-Enterprise using PEAP + EAP-TLS
-  → Cisco 1921, 3560-CX and 3850
-    StackWise on real hardware
-  → LACP EtherChannel, SPAN, VLANs,
-    routing, ACLs and failover testing
-  → FortiGate 300D — firewall policy,
-    VIPs, Hairpin NAT and Active-Passive HA
-  → Wireshark validation across both
-    sides of routed and translated flows
-  → NOC-style documentation built around
-    baselines, faults, fixes and evidence
-  → Vatanix Technologies — 60-day program
-    complete, continuing through a 45-day
-    advanced training phase
-
-⚡ Fun Fact: Once plugged a cable into the
-   iLO port instead of the NIC — learned
-   that Layer 1 starts with reading the
-   port labels!
-</pre>
+<div align="center">
+  <picture>
+    <source media="(min-width: 768px)" srcset="./assets/spacer.svg" />
+    <img src="./assets/network-nodes.svg" alt="Animated network globe showing synchronized infrastructure nodes" />
+  </picture>
 </div>
+
+**🏷️ Name:** Georgin Shaju  
+**🌐 Username:** `georgin-shaju`  
+**📍 Location:** Trichy, Tamil Nadu, India  
+**🎯 Focus:** Junior IT Infrastructure & Network Engineering
+
+#### 🔭 Current Infrastructure Work
+
+- **Windows Server 2019/2025:** AD DS, DNS, DHCP failover, AD CS and GPO
+- **NPS/RADIUS:** switch SSH and WPA2-Enterprise using PEAP and EAP-TLS
+- **Cisco 1921, 3560-CX and 3850:** StackWise on real hardware
+- **Switching and routing:** LACP EtherChannel, SPAN, VLANs, routing, ACLs and failover testing
+- **FortiGate 300D:** firewall policies, VIPs, Hairpin NAT and active-passive HA
+- **Wireshark:** validation across both sides of routed and translated flows
+- **Documentation:** NOC-style baselines, faults, fixes and supporting evidence
+- **Vatanix Technologies:** completed the 60-day program and continuing through a 45-day advanced training phase
+
+> ⚡ **Fun Fact:** Once plugged a cable into the iLO port instead of the NIC — learned that Layer 1 starts with reading the port labels!
 <!-- └───────────────────────────────────────────────────────────┘ -->
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" alt="" />
