@@ -42,20 +42,14 @@
   </a>
 </div>
 
-<br/>
-
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" alt="" />
-
-<br/>
 
 <!-- ┌─ ABOUT ME ────────────────────────────────────────────────┐ -->
 ## <img src="https://media.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif" width="26" alt=""> &nbsp;**About Me**
 
-<div>
-<picture>
-  <source media="(min-width: 1024px)" srcset="./assets/network-nodes.svg" />
-  <img align="right" src="./assets/spacer.gif" alt="" />
-</picture>
+<p align="center">
+  <img src="./assets/network-nodes.svg" width="180" alt="Animated network globe showing synchronized infrastructure nodes" />
+</p>
 
 <pre>
 🏷️ Name:     Georgin Shaju
@@ -88,14 +82,9 @@
    that Layer 1 starts with reading the
    port labels!
 </pre>
-</div>
-
-<br clear="both"/>
 <!-- └───────────────────────────────────────────────────────────┘ -->
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" alt="" />
-
-<br/>
 
 <!-- ┌─ FEATURED PROJECTS ───────────────────────────────────────┐ -->
 ## 🚀 **Featured Infrastructure Projects**
