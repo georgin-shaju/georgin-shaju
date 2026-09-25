@@ -1,13 +1,12 @@
 <!-- ╔══════════════════════════════════════════════════════════╗ -->
-<!-- ║            GEORGIN SHAJU — GitHub Profile README         ║ -->
+<!-- ║            GEORGIN SHAJU | GitHub Profile README         ║ -->
 <!-- ╚══════════════════════════════════════════════════════════╝ -->
 
 <!-- ┌─ BANNER ──────────────────────────────────────────────────┐ -->
 <div align="center">
-  <img src="./assets/banner-v3.png" alt="Georgin Shaju — Junior IT Infrastructure and Network Engineer" width="100%" />
+  <img src="./assets/banner-v5.png" alt="Georgin Shaju, Junior IT Infrastructure and Network Engineer" width="100%" />
 </div>
 <!-- └───────────────────────────────────────────────────────────┘ -->
-
 <!-- ┌─ BADGES ──────────────────────────────────────────────────┐ -->
 <div align="center">
   <a href="https://github.com/georgin-shaju">
@@ -17,7 +16,7 @@
   <img src="https://komarev.com/ghpvc/?username=georgin-shaju&style=for-the-badge&color=39d353&labelColor=161b22&label=PROFILE+VIEWS" alt="Profile views" />
   &nbsp;
   <a href="https://github.com/georgin-shaju/Network-Infrastructure-Portfolio">
-    <img src="https://img.shields.io/badge/🏗️_PORTFOLIO-VIEW_LABS-39d353?style=for-the-badge&labelColor=161b22" alt="View infrastructure portfolio" />
+    <img src="https://img.shields.io/badge/🏗️_PORTFOLIO-VIEW_PROJECTS-39d353?style=for-the-badge&labelColor=161b22" alt="View infrastructure portfolio" />
   </a>
 </div>
 <!-- └───────────────────────────────────────────────────────────┘ -->
@@ -29,7 +28,7 @@
 
 ### 🔗 Find everything in one place
 
-**[georgin-shaju.github.io](https://georgin-shaju.github.io)** — project highlights, GitHub, LinkedIn, and contact links.
+**[georgin-shaju.github.io](https://georgin-shaju.github.io)** brings together project highlights, GitHub, LinkedIn and contact links.
 
 </div>
 <!-- └───────────────────────────────────────────────────────────┘ -->
@@ -38,7 +37,7 @@
 
 <div align="center">
   <a href="https://github.com/georgin-shaju/Network-Infrastructure-Portfolio">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&duration=3000&pause=800&color=39D353&center=true&vCenter=true&width=760&lines=Building+and+testing+real+infrastructure;Windows+Server+%C2%B7+Cisco+%C2%B7+FortiGate+%C2%B7+Wireshark;HA+%C2%B7+RADIUS+%C2%B7+802.1X+%C2%B7+Hairpin+NAT;Documenting+the+failure%2C+fix%2C+and+verification" alt="Infrastructure engineering focus" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&duration=3000&pause=800&color=39D353&center=true&vCenter=true&width=820&lines=Building+and+testing+real+infrastructure;Cisco+%C2%B7+Meraki+%C2%B7+FortiGate+%C2%B7+Windows+Server;Cisco+ISE+%C2%B7+EAP-TLS+%C2%B7+TACACS%2B+%C2%B7+High+Availability;Documenting+the+baseline%2C+failure%2C+fix%2C+and+evidence" alt="Infrastructure engineering focus" />
   </a>
 </div>
 
@@ -62,20 +61,20 @@
 **🏷️ Name:** Georgin Shaju  
 **🌐 Username:** `georgin-shaju`  
 **📍 Location:** Trichy, Tamil Nadu, India  
-**🎯 Focus:** Junior IT Infrastructure & Network Engineering
+**🎯 Focus:** IT Infrastructure & Network Engineering
 
 #### 🔭 Current Infrastructure Work
 
-- **Windows Server 2019/2025:** AD DS, DNS, DHCP failover, AD CS and GPO
-- **NPS/RADIUS:** switch SSH and WPA2-Enterprise using PEAP and EAP-TLS
-- **Cisco 1921, 3560-CX and 3850:** StackWise on real hardware
-- **Switching and routing:** LACP EtherChannel, SPAN, VLANs, routing, ACLs and failover testing
-- **FortiGate 300D:** firewall policies, VIPs, Hairpin NAT and active-passive HA
-- **Wireshark:** validation across both sides of routed and translated flows
-- **Documentation:** NOC-style baselines, faults, fixes and supporting evidence
-- **Vatanix Technologies:** completed the 60-day program and continuing through a 45-day advanced training phase
+- **Windows Server 2019/2025:** AD DS, DNS, DHCP failover, AD CS and Group Policy
+- **Cisco routing and switching:** 1921, 3560-CX and 3850 hardware with StackWise, LACP, SPAN, VLANs, routing and ACLs
+- **Cisco Meraki:** MS130-8P and dual MR36 deployments, Dashboard onboarding, VLAN trunking, guest access and client troubleshooting
+- **Cisco ISE:** EAP-TLS, certificate and endpoint authorization, dynamic VLAN assignment, TACACS+ and command accounting
+- **FortiGate 40F and 300D:** VLAN gateways, firewall policies, NAT, hairpin NAT and active-passive HA
+- **Wireshark:** packet-level validation across routed, authenticated and translated traffic paths
+- **Documentation:** evidence-led baselines, configuration decisions, failure tests, fixes and verification
+- **Hands-on training:** infrastructure work completed through network and hardware training at Vatanix Technologies, Trichy
 
-> ⚡ **Fun Fact:** Once plugged a cable into the iLO port instead of the NIC — learned that Layer 1 starts with reading the port labels!
+> ⚡ **Fun Fact:** I once plugged a cable into the iLO port instead of the NIC. Layer 1 really does start with reading the port labels.
 <!-- └───────────────────────────────────────────────────────────┘ -->
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" alt="" />
@@ -85,14 +84,16 @@
 
 | Project | What the evidence demonstrates |
 |---|---|
-| **[FortiGate Hairpin NAT with Windows IIS](https://github.com/georgin-shaju/Network-Infrastructure-Portfolio/tree/main/HairpinNAT)** | An internal client reaches an IIS server through its external VIP; policy counters and matching endpoint captures prove DNAT and SNAT. |
+| **[Cisco ISE Identity and Access Control](https://github.com/georgin-shaju/Network-Infrastructure-Portfolio/tree/main/Cisco-ISE-Identity-and-Access-Control)** | Meraki EAP-TLS, certificate and endpoint authorization, dynamic VLAN assignment, plus TACACS+ role-based administration and command accounting. |
+| **Cisco Meraki Cloud Networking**<br>[MS130 Integration](https://github.com/georgin-shaju/Network-Infrastructure-Portfolio/tree/main/Cisco-Meraki-MS130-8P-Onboarding-FortiGate-Integration) · [MR36 Wireless](https://github.com/georgin-shaju/Network-Infrastructure-Portfolio/tree/main/Cisco-Meraki-MR36-Onboarding-and-Wireless-Exploration) | Cloud onboarding, FortiGate VLAN trunking, dual access points, guest access methods, Meraki DHCP and Dashboard-based client troubleshooting. |
+| **[FortiGate Hairpin NAT with Windows IIS](https://github.com/georgin-shaju/Network-Infrastructure-Portfolio/tree/main/HairpinNAT)** | An internal client reaches an IIS server through its external VIP. Policy counters and matching endpoint captures prove DNAT and SNAT. |
 | **[FortiGate Active-Passive HA](https://github.com/georgin-shaju/Network-Infrastructure-Portfolio/tree/main/FortiGate_Active-Passive-HA-Failover)** | A two-unit FortiGate 300D cluster is tested against WAN-link loss, full-power failure, failback, config sync, and disabled session pickup. |
 | **[AD Infrastructure Failover & AAA](https://github.com/georgin-shaju/Network-Infrastructure-Portfolio/tree/main/AD_Infrastructure_Failover_and_AAA_Lab)** | Two Windows Server 2025 DCs provide AD/DNS/DHCP redundancy, AD CS, and NPS/RADIUS for SSH and WPA2-Enterprise authentication. |
-| **[Cisco 3850 StackWise Lab](https://github.com/georgin-shaju/Network-Infrastructure-Portfolio/tree/main/Cisco_3850_StackWise_Lab)** | A real StackWise pair acts as the L3 gateway with dual LACP EtherChannels, SPAN monitoring, and four live resiliency tests. |
+| **[Cisco 3850 StackWise Deployment](https://github.com/georgin-shaju/Network-Infrastructure-Portfolio/tree/main/Cisco_3850_StackWise_Lab)** | A real StackWise pair acts as the L3 gateway with dual LACP EtherChannels, SPAN monitoring, and four live resiliency tests. |
 
 <div align="center">
   <a href="https://github.com/georgin-shaju/Network-Infrastructure-Portfolio">
-    <img src="https://img.shields.io/badge/VIEW_ALL_LABS-NETWORK_INFRASTRUCTURE_PORTFOLIO-39d353?style=for-the-badge&labelColor=161b22" alt="View all infrastructure labs" />
+    <img src="https://img.shields.io/badge/VIEW_ALL_PROJECTS-NETWORK_INFRASTRUCTURE_PORTFOLIO-39d353?style=for-the-badge&labelColor=161b22" alt="View all infrastructure projects" />
   </a>
 </div>
 <!-- └───────────────────────────────────────────────────────────┘ -->
@@ -114,6 +115,8 @@
   <img src="https://img.shields.io/badge/VMware_ESXi_8.0-607078?style=for-the-badge&logo=vmware&logoColor=white" alt="VMware ESXi 8.0" />
   <img src="https://img.shields.io/badge/AD_DS%20%2F%20DNS%20%2F%20DHCP-003366?style=for-the-badge&logo=microsoft&logoColor=white" alt="Active Directory, DNS and DHCP" />
   <img src="https://img.shields.io/badge/AD_CS%20%2F%20NPS_RADIUS-5E5E5E?style=for-the-badge&logo=microsoft&logoColor=white" alt="Active Directory Certificate Services and NPS RADIUS" />
+  <img src="https://img.shields.io/badge/Cisco_ISE%20%2F%20EAP--TLS-1BA0D7?style=for-the-badge&logo=cisco&logoColor=white" alt="Cisco ISE and EAP-TLS" />
+  <img src="https://img.shields.io/badge/TACACS%2B%20%2F%20Command_Accounting-5E5E5E?style=for-the-badge&logo=cisco&logoColor=white" alt="TACACS Plus and command accounting" />
   <img src="https://img.shields.io/badge/IIS-0078D4?style=for-the-badge&logo=windows&logoColor=white" alt="Microsoft IIS" />
   <img src="https://img.shields.io/badge/VirtualBox-183A61?style=for-the-badge&logo=virtualbox&logoColor=white" alt="VirtualBox" />
 </p>
@@ -123,6 +126,8 @@
   <img src="https://img.shields.io/badge/TCP%2FIP%20%2F%20OSI-0077B6?style=for-the-badge&logoColor=white" alt="TCP IP and OSI" />
   <img src="https://img.shields.io/badge/VLANs%20%2F%20SVI%20%2F%20STP-1BA0D7?style=for-the-badge&logo=cisco&logoColor=white" alt="VLAN, SVI and STP" />
   <img src="https://img.shields.io/badge/StackWise%20%2F%20LACP-1BA0D7?style=for-the-badge&logo=cisco&logoColor=white" alt="Cisco StackWise and LACP" />
+  <img src="https://img.shields.io/badge/Cisco_Meraki%20%2F%20Dashboard-00A4A6?style=for-the-badge&logo=cisco&logoColor=white" alt="Cisco Meraki and Meraki Dashboard" />
+  <img src="https://img.shields.io/badge/MS130--8P%20%2F%20MR36-00A4A6?style=for-the-badge&logo=cisco&logoColor=white" alt="Cisco Meraki MS130-8P and MR36" />
   <img src="https://img.shields.io/badge/802.1X%20%2F%20RADIUS-8b949e?style=for-the-badge&logoColor=white" alt="802.1X and RADIUS" />
   <img src="https://img.shields.io/badge/SPAN%20%2F%20Wireshark-1679A7?style=for-the-badge&logo=wireshark&logoColor=white" alt="SPAN and Wireshark" />
 </p>
@@ -160,6 +165,14 @@
 
 <div align="center">
   <img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=georgin-shaju&theme=dark&hide_border=true&background=0d1117&ring=39d353&fire=39d353&currStreakLabel=39d353&sideLabels=c9d1d9&currStreakNum=c9d1d9&dates=555555" alt="GitHub contribution streak" />
+
+  <br/><br/>
+
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/georgin-shaju/georgin-shaju/output/github-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/georgin-shaju/georgin-shaju/output/github-snake.svg" />
+    <img src="https://raw.githubusercontent.com/georgin-shaju/georgin-shaju/output/github-snake.svg" alt="GitHub contribution snake animation" width="100%" />
+  </picture>
 </div>
 <!-- └───────────────────────────────────────────────────────────┘ -->
 
